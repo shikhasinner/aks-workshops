@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shksin_aks_workshops_1701651726257-pr-trigger-input-set
+  identifier: Build_shksin_aks_workshops_1701651726257prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_shksin_aks_workshops_1701651726257
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
